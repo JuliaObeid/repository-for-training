@@ -119,3 +119,57 @@
 
     </ul>
 </div>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html> 
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Карточка товара с иконками</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./images/sprite.svg" />
+    </head>
+
+    <body>
+        <a href="/index.html">Назад на главную</a>
+        <article class="product">
+            <div class="product-thumb">
+            <img src="./images/cat1.jpeg" alt="cat" />
+            <div class="product-actions">
+                <button aria-label="В избранное" class="item">
+                    <svg class="icon">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                </button>
+            
+                <button aria-label="В избранное" class="item">
+                    <svg class="icon">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                </button>
+            
+                <button aria-label="В избранное" class="item">
+                    <svg class="icon">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                </button>
+            </div>
+            </div>
+        
+           
+
+            <div class="product-meta">
+                <h2 class="product-name">Котик</h2>
+                <p class="product-price">Цена 1000 гривен</p>
+            </div>
+        </article>
+    </body>
+</html>
