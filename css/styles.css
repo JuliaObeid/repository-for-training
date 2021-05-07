@@ -89,3 +89,17 @@ img {
 .product-thumb {
   position: relative;
 }
+
+.product-thumb::before {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(105, 73, 134, 0.5);
+  opacity: 0;
+}
+
+.product-thumb:hover::before {
+  opacity: 1;
+}
